@@ -16,7 +16,7 @@ const FoodItem = ({ foodData }) => {
       <img src={strMealThumb} alt="" className="img-fluid rounded" />
       <h4>{strMeal}</h4>
 
-      <button onClick={foodDetail}>Hello</button>
+      <button onClick={foodDetail}>Food Details</button>
     </div>
   );
 };

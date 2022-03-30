@@ -4,7 +4,7 @@ import FoodItem from "../FoodItem/FoodItem";
 const Food = () => {
   const [SearchedFood, setSearchedFood] = useState("");
   const [foundFood, setFoundFood] = useState([]);
-  console.log(foundFood);
+
   const searchFood = (e) => {
     setSearchedFood(e.target.value);
   };
