@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Contact from "./components/Contact/Contact";
 import Food from "./components/Food/Food";
 import NotFound from "./components/NotFound/NotFound";
+import FoodDetail from "./components/FoodDetail/FoodDetail";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/food" element={<Food />} />
+        <Route path="/food/:detailId" element={<FoodDetail></FoodDetail>} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

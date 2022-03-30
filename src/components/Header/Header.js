@@ -1,5 +1,4 @@
 import React from "react";
-import { InputGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -8,7 +7,7 @@ const Header = () => {
       <Link className="fs-3 text-decoration-none text-dark" to="/">
         Cravings
       </Link>
-      <input type="text" placeholder="Search Food" className="w-25" />
+
       <div className="menu d-flex gap-3 flex-md-row flex-column">
         <Link to="/">Home</Link>
         <Link to="/food">Food</Link>
