@@ -25,7 +25,9 @@ const FoodDetail = () => {
       <p>
         <strong>Origin:</strong> {foodDetail.strArea}
       </p>
-      <a href={foodDetail.strYoutube}>Youtube Link</a>
+      <a href={foodDetail.strYoutube} target="_blank" rel="noreferrer">
+        Youtube Link
+      </a>
     </div>
   );
 };
